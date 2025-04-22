@@ -109,7 +109,7 @@ disabled-worlds:
 disable-back-command: false
 
 # If you want to disable the death coords message, then set this to true
-disable-coords-message: false
+disable-coords-message: true
 
 # If you want to disable saving the death location, then set this to true
 disable-back-on-death: false
@@ -131,7 +131,7 @@ disable-sound: false
 # If you want to disable interdimensional travel(only allowed to use the plugin in the same world with other player), then set this to true
 disable-interdimensional-travel: false
 # If you want to disable the invincibility after teleporting, then set this to true
-disable-invincibility: false
+disable-invincibility: true
 # If you want to disable logging /back locations from quitting the server, then set this to true
 disable-back-on-quit: false
 
@@ -144,10 +144,10 @@ keep-alive: 60
 delay-back-command: 5
 delay-teleportation: 5
 #Cooldowns
-back-cooldown: 10
-tpa-cooldown: 10
-tpahere-cooldown: 10
-tpahereall-cooldown: 10
+back-cooldown: 0
+tpa-cooldown: 0
+tpahere-cooldown: 0
+tpahereall-cooldown: 9999999
 #To set a custom cooldown, you need to add a permission : simpletpa.cooldown.Y.X where Y is the command and  X are the seconds.
 #The options for commands are: tpa | tpahere | back | tpahereall
 #Example: simpletpa.cooldown.tpa.300 | simpletpa.cooldown.tpahere.300 | simpletpa.cooldown.tpahereall.300 | simpletpa.cooldown.back.300

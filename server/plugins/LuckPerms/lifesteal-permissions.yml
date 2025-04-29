@@ -1,0 +1,58 @@
+groups:
+  default:
+    permissions:
+    - essentials.help
+    - essentials.spawn
+    - essentials.home
+    - essentials.sethome
+    - essentials.msg
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warps.*
+    - essentials.rules
+    - essentials.list
+    - essentials.suicide
+    - essentials.balance
+    - essentials.pay
+    - essentials.kit
+    - essentials.kits.*
+    - essentials.afk
+    - essentials.back
+    - essentials.delhome
+    - modifyworld.*
+    - essentials.build
+    - essentials.interact
+    - minecraft.command.help
+    - minecraft.command.me
+    - essentials.recipe
+    - essentials.signs.use.*
+    - essentials.signs.create.*
+    - essentials.signs.break.*
+    - essentials.chat.color
+    meta:
+      prefix: "&7[Member] &r"
+    weight: 1
+
+  moderator:
+    inheritance:
+    - default
+    permissions:
+    - essentials.kick
+    - essentials.mute
+    - essentials.tp
+    - essentials.invsee
+    - essentials.warn
+    meta:
+      prefix: "&2[Mod] &r"
+    weight: 50
+
+  owner:
+    inheritance:
+    - moderator
+    permissions:
+    - "*"
+    meta:
+      prefix: "&c[Owner] &r"
+    weight: 100

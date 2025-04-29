@@ -15,6 +15,18 @@
 # Any file in the `kits` subdirectory must be formatted in the same way as this file. This allows you to define multiple kits in each file.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
+  newbie:
+    delay: -1
+    items:
+      - stonesword 1
+      - stoneshovel 1
+      - stonepickaxe 1
+      - stoneaxe 1
+      - chainhelmet 1
+      - chainchestplate 1
+      - chainleggings 1
+      - chainboots 1
+      - steak 16
   tools:
     delay: 90
     items:
@@ -29,3 +41,7 @@ kits:
      - chainchestplate 1
      - chainleggings 1
      - chainboots 1
+  food:
+    delay: 90
+    items:
+    - steak 16

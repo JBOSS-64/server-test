@@ -1,0 +1,46 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1745867352789
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1745873548055
+  login: 1745872775784
+money: '0'
+last-account-name: THEGGNERD123
+lastlocation:
+  world: a2753602-a48d-4b55-a408-cc2a5e1c0af4
+  world-name: world
+  x: -175.7118574501338
+  y: 65.0
+  z: 300.2475136126081
+  yaw: -104.40000915527344
+  pitch: 18.450000762939453
+logoutlocation:
+  world: a2753602-a48d-4b55-a408-cc2a5e1c0af4
+  world-name: world
+  x: -127.32056029110572
+  y: 71.0
+  z: 245.05485210813492
+  yaw: 167.85015869140625
+  pitch: 31.04999351501465
+mail:
+- legacy: false
+  read: true
+  message: hello
+  sender-name: JBOSS_64
+  sender-uuid: 201618bc-276a-3445-afc8-f85240e7aa86
+  timestamp: 1745866703339
+  expire: 0

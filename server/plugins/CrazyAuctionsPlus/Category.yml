@@ -19,6 +19,9 @@ Category:
     - Foods
     - Potions
     - Blocks
+    Reflection-boolean:
+      Enabled: 'Null'
+    Display-Name: 'Null'
   Armor:
     Whitelist: true
     Modules: []
@@ -39,6 +42,9 @@ Category:
     - IRON_CHESTPLATE
     - IRON_LEGGINGS
     - IRON_BOOTS
+    Reflection-boolean:
+      Enabled: 'Null'
+    Display-Name: 'Null'
   Weapons:
     Whitelist: true
     Modules: []
@@ -56,6 +62,9 @@ Category:
     - BOW
     - TRIDENT
     - CROSSBOW
+    Reflection-boolean:
+      Enabled: 'Null'
+    Display-Name: 'Null'
   Tools:
     Whitelist: true
     Modules: []
@@ -80,6 +89,9 @@ Category:
     - STONE_HOE
     - IRON_HOE
     - DIAMOND_HOE
+    Reflection-boolean:
+      Enabled: 'Null'
+    Display-Name: 'Null'
   Foods:
     Whitelist: true
     Modules: []
@@ -88,6 +100,7 @@ Category:
       Enabled: true
       Methods:
       - isEdible
+    Display-Name: 'Null'
   Potions:
     Whitelist: true
     Modules: []
@@ -95,6 +108,9 @@ Category:
     - POTION
     - SPLASH_POTION
     - LINGERING_POTION
+    Reflection-boolean:
+      Enabled: 'Null'
+    Display-Name: 'Null'
   Blocks:
     Whitelist: true
     Modules: []
@@ -103,3 +119,4 @@ Category:
       Enabled: true
       Methods:
       - isBlock
+    Display-Name: 'Null'

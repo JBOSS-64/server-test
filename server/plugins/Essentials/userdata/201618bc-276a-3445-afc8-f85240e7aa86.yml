@@ -11,20 +11,33 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1745890805262
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745514468726
-  login: 1745514693641
-money: '3120.00'
+  logout: 1745892420534
+  login: 1745892357885
+  kits:
+    armour: 1745859494498
+    tools: 1745859501796
+    food: 1745873312295
+money: '9998000000.0'
 last-account-name: JBOSS_64
 logoutlocation:
   world: a2753602-a48d-4b55-a408-cc2a5e1c0af4
   world-name: world
-  x: -112.61424818552406
-  y: 64.0
-  z: 159.54375078715083
-  yaw: 280.6501159667969
-  pitch: 10.64999771118164
+  x: -139.26077169945
+  y: 71.0
+  z: 254.87298355802093
+  yaw: 70.8002700805664
+  pitch: 29.24999237060547
+lastlocation:
+  world: a2753602-a48d-4b55-a408-cc2a5e1c0af4
+  world-name: world
+  x: -142.8734271055747
+  y: 80.1029469778557
+  z: 256.2286017745963
+  yaw: 291.0001220703125
+  pitch: 70.35001373291016
+nickname: §kehehhehe

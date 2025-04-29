@@ -102,9 +102,9 @@ Settings:
         Enabled: true
         Commands:
             #Format  'custom command': 'target command'
-            'shop': 'ca gui'
             'market': 'ca gui'
             'ah': 'ca gui'
+            'ah sell' : 'ca sell'
             'hdv': 'ca gui'
     Auction-Process-Settings:
         Starting:

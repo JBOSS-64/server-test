@@ -180,6 +180,7 @@ disabled-commands:
   - tphere
   - teleport
   - tptoggle
+  - back
 #  - nick
 #  - clear
 
@@ -350,10 +351,10 @@ use-bukkit-permissions: true
 
 # When this option is enabled, one-time use kits (ie. delay < 0) will be
 # removed from the /kit list when a player can no longer use it
-skip-used-one-time-kits-from-kit-list: false
+skip-used-one-time-kits-from-kit-list: true
 
 # When enabled, armor from kits will automatically be equipped as long as the player's armor slots are empty.
-kit-auto-equip: false
+kit-auto-equip: true
 
 # Determines the functionality of the /createkit command.
 # If this is true, /createkit will give the user a link with the kit code.
@@ -571,8 +572,8 @@ allow-silent-join-quit: false
 # {ONLINE} - The number of players online.
 # {UNIQUE} - The number of unique players to join the server.
 # {UPTIME} - The amount of time the server has been online.
-custom-join-message: "none"
-custom-quit-message: "none"
+custom-join-message: "[&2+&r] {USERNAME}"
+custom-quit-message: "[&4-&r] {USERNAME}"
 
 # You can set a custom join message for users who join with a new username here.
 # This message will only be used if a user has joined before and have since changed their username.
@@ -1220,7 +1221,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  kit: tools
+  kit: newbie
 
 # What priority should we use for handling respawns?
 # Set this to none, if you want vanilla respawning behaviour.

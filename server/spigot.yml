@@ -67,7 +67,6 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
     nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
@@ -78,6 +77,27 @@ world-settings:
       sapling-modifier: 100
       wheat-modifier: 100
       netherwart-modifier: 100
+    mob-spawn-range: 4
+    anti-xray:
+      enabled: true
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -114,29 +134,9 @@ world-settings:
       exp: 3.0
     arrow-despawn-rate: 1200
     enable-zombie-pigmen-portal-spawns: true
-    wither-spawn-sound-radius: 0
     view-distance: 4
+    wither-spawn-sound-radius: 0
     hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
-    anti-xray:
-      enabled: true
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
     chunks-per-tick: 650
     clear-tick-list: false

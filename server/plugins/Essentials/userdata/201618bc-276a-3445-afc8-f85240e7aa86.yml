@@ -1,6 +1,6 @@
 teleportenabled: true
 teleportauto: false
-godmode: false
+godmode: true
 muted: false
 jailed: false
 ip-address: 0:0:0:0:0:0:0:1
@@ -11,33 +11,33 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1745890805262
+  lastteleport: 1745956598739
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745892420534
-  login: 1745892357885
+  logout: 1745956612241
+  login: 1745955625306
   kits:
-    armour: 1745859494498
+    armour: 1745944910423
     tools: 1745859501796
-    food: 1745873312295
+    food: 1745954991502
+    newbie: 1745954971120
 money: '9998000000.0'
 last-account-name: JBOSS_64
 logoutlocation:
   world: a2753602-a48d-4b55-a408-cc2a5e1c0af4
   world-name: world
-  x: -139.26077169945
+  x: -143.14138979544137
   y: 71.0
-  z: 254.87298355802093
-  yaw: 70.8002700805664
-  pitch: 29.24999237060547
+  z: 257.0888486564777
+  yaw: -91.79988861083984
+  pitch: 8.399992942810059
 lastlocation:
   world: a2753602-a48d-4b55-a408-cc2a5e1c0af4
   world-name: world
-  x: -142.8734271055747
-  y: 80.1029469778557
-  z: 256.2286017745963
-  yaw: 291.0001220703125
-  pitch: 70.35001373291016
-nickname: §kehehhehe
+  x: 49991.984893823304
+  y: 63.0
+  z: 50012.56121008605
+  yaw: -1.3499431610107422
+  pitch: 28.4999942779541

@@ -28,7 +28,7 @@ ops-name-color: '4'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
 # Users with essentials.nick.hideprefix will not be prefixed with the character(s)
-nickname-prefix: '~'
+nickname-prefix: ''
 
 # The maximum length allowed in nicknames. The nickname prefix is not included in this.
 max-nick-length: 15
@@ -41,7 +41,7 @@ nick-blacklist:
 
 # When this option is enabled, nickname length checking will exclude color codes in player names.
 # ie: "&6Notch" has 7 characters (2 are part of a color code), a length of 5 is used when this option is set to true
-ignore-colors-in-max-nick-length: false
+ignore-colors-in-max-nick-length: true
 
 # When this option is enabled, display names for hidden users will not be shown. This prevents players from being
 # able to see that they are online while vanished.
@@ -181,6 +181,9 @@ disabled-commands:
   - teleport
   - tptoggle
   - back
+  - home
+  - sethome
+  - homes
 #  - nick
 #  - clear
 
@@ -817,7 +820,7 @@ compass-towards-home-perm: false
 spawn-if-no-home: true
 
 # Should players be asked to provide confirmation for homes which they attempt to overwrite?
-confirm-home-overwrite: false
+confirm-home-overwrite: true
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -830,7 +833,7 @@ confirm-home-overwrite: false
 # You can control the values of items that are sold to the server by using the /setworth command.
 
 # Defines the balance with which new players begin. Defaults to 0.
-starting-balance: 0
+starting-balance: 100
 
 # Defines the cost to use the given commands PER USE.
 # Some commands like /repair have sub-costs, check the wiki for more information.
@@ -865,7 +868,7 @@ economy-log-enabled: false
 economy-log-update-enabled: false
 
 # Minimum acceptable amount to be used in /pay.
-minimum-pay-amount: 0.001
+minimum-pay-amount: 1
 
 # Enable this to block users who try to /pay another user which ignore them.
 pay-excludes-ignore-list: false
@@ -957,7 +960,7 @@ chat:
   # {TEAMPREFIX} - The sender's scoreboard team prefix.
   # {TEAMSUFFIX} - The sender's scoreboard team suffix.
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
+  format: '{DISPLAYNAME} {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {DISPLAYNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
@@ -1184,10 +1187,10 @@ protect:
   blacklist:
 
     # Which blocks should people be prevented from placing?
-    placement: LAVA,TNT,LAVA_BUCKET
+    placement:
 
     # Which items should people be prevented from using?
-    usage: LAVA_BUCKET
+    usage:
 
     # Which blocks should people be prevented from breaking?
     break:

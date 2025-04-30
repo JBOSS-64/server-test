@@ -1,1 +1,7 @@
 JBOSS_64: {}
+JBOSS_65:
+  home:
+    world: world
+    X: -148.5
+    Y: 71.0
+    Z: 256.5

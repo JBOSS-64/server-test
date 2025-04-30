@@ -11,20 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1745954078885
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745891596481
-  login: 1745891584893
+  logout: 1745955618202
+  login: 1745955601906
 money: '0'
 last-account-name: JBOSS_65
 logoutlocation:
   world: a2753602-a48d-4b55-a408-cc2a5e1c0af4
   world-name: world
-  x: -148.5
+  x: -148.5430637615052
   y: 71.0
-  z: 256.5
-  yaw: -55.799896240234375
-  pitch: -24.000009536743164
+  z: 255.46092182397453
+  yaw: -80.70003509521484
+  pitch: 18.750001907348633
+lastlocation:
+  world: a2753602-a48d-4b55-a408-cc2a5e1c0af4
+  world-name: world
+  x: -93.69999998807907
+  y: 67.0
+  z: 254.50021375516613
+  yaw: 63.900146484375
+  pitch: 8.549991607666016

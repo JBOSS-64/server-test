@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1745873548055
-  login: 1745872775784
+  logout: 1745951292046
+  login: 1745951130346
 money: '0'
 last-account-name: THEGGNERD123
 lastlocation:
@@ -31,11 +31,11 @@ lastlocation:
 logoutlocation:
   world: a2753602-a48d-4b55-a408-cc2a5e1c0af4
   world-name: world
-  x: -127.32056029110572
+  x: -157.29611596545092
   y: 71.0
-  z: 245.05485210813492
-  yaw: 167.85015869140625
-  pitch: 31.04999351501465
+  z: 228.16077738166268
+  yaw: 43.6734619140625
+  pitch: 17.406291961669922
 mail:
 - legacy: false
   read: true
